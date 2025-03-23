@@ -3,3 +3,5 @@
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://github.com/mermaid-js/mermaid>
+
+Andrej Karpathy video that showed mermaidJS being generated in Claude Artifacts (just one of the topics in this video): <https://www.youtube.com/watch?v=EWvNQjAaOHw>
