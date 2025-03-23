@@ -6,9 +6,12 @@ Generate diagrams from markdown-like code. <https://github.com/mermaid-js/mermai
 
 Andrej Karpathy video that showed mermaidJS being generated in Claude Artifacts (just one of the topics in this video): <https://www.youtube.com/watch?v=EWvNQjAaOHw>
 
-Me playing around with learning mermaid in Claude with Artifacts automatically generated: <https://claude.ai/share/f2c74fe0-28d5-4154-85eb-86453915c2a2>
-
 prompt --> mermaid code --> diagram
+
+Me playing around with learning mermaid in Claude with Artifacts automatically generated:
+
+- US zip code patterns: <https://claude.ai/share/f2c74fe0-28d5-4154-85eb-86453915c2a2>
+- flavor comment feedback analysis: <https://claude.ai/share/a54c1d50-e8f9-4e5a-b1ec-d999dd3c10a3>
 
 Example mermaid code:
 
@@ -54,4 +57,25 @@ flowchart TD
     
     style NE0,NE1,NE2,MW4,MW5,MW6,S3,S7,W8,W9,SpecialCodes fill:#ffffff,stroke:#333,stroke-width:1px
 style ME,NH,VT,MA,RI,CT,NJ fill:#d4f1f9,stroke:#333,stroke-width:1px
+```
+
+```mermaid
+flowchart TD
+    subgraph "Customer Feedback"
+    A["Comment 1: 'The flavor was delicate and flavorful, very delicious!'"]
+    B["Comment 2: 'I didn't like it - a little too chewy.'"]
+    C["Comment 3: 'It's nice and chewy but I think the flavour was too strong for my taste'"]
+    D["Comment 4: 'Not the best of the bunch in the series.'"]
+    end
+    
+    A --> |Positive| E[Flavor: Delicate & Flavorful]
+    A --> |Positive| F[Overall: Delicious]
+    
+    B --> |Negative| G[Texture: Too Chewy]
+    B --> |Negative| H[Overall: Disliked]
+    
+    C --> |Positive| I[Texture: Nice & Chewy]
+    C --> |Negative| J[Flavor: Too Strong]
+    
+    D --> |Negative| K[Comparative: Below Average]
 ```

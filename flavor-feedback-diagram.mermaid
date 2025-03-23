@@ -1,0 +1,18 @@
+flowchart TD
+    subgraph "Customer Feedback"
+    A["Comment 1: 'The flavor was delicate and flavorful, very delicious!'"]
+    B["Comment 2: 'I didn't like it - a little too chewy.'"]
+    C["Comment 3: 'It's nice and chewy but I think the flavour was too strong for my taste'"]
+    D["Comment 4: 'Not the best of the bunch in the series.'"]
+    end
+    
+    A --> |Positive| E[Flavor: Delicate & Flavorful]
+    A --> |Positive| F[Overall: Delicious]
+    
+    B --> |Negative| G[Texture: Too Chewy]
+    B --> |Negative| H[Overall: Disliked]
+    
+    C --> |Positive| I[Texture: Nice & Chewy]
+    C --> |Negative| J[Flavor: Too Strong]
+    
+    D --> |Negative| K[Comparative: Below Average]
