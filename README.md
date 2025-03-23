@@ -16,7 +16,7 @@ Me playing around with learning mermaid in Claude with Artifacts automatically g
 Example mermaid output:
 
 <details>
-<summary>mermaid code for US zip code patterns</summary>
+<summary>(CLICK TO EXPAND:) mermaid code for US zip code patterns</summary>
 
 ```mermaid
 flowchart TD
@@ -111,7 +111,7 @@ style ME,NH,VT,MA,RI,CT,NJ fill:#d4f1f9,stroke:#333,stroke-width:1px
 ![US zip code patterns](us-zipcode-diagram.png)
 
 <details>
-<summary>mermaid code for flavor comment feedback analysis</summary>
+<summary>(CLICK TO EXPAND:) mermaid code for flavor comment feedback analysis</summary>
 
 ```mermaid
 flowchart TD
