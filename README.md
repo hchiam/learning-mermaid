@@ -106,9 +106,9 @@ flowchart TD
 style ME,NH,VT,MA,RI,CT,NJ fill:#d4f1f9,stroke:#333,stroke-width:1px
 ```
 
-![US zip code patterns](us-zipcode-diagram.png)
-
 </details>
+
+![US zip code patterns](us-zipcode-diagram.png)
 
 <details>
 <summary>mermaid code for flavor comment feedback analysis</summary>
@@ -155,6 +155,6 @@ flowchart TD
     D --> |Negative| K[Comparative: Below Average]
 ```
 
-![flavor feedback diagram](flavor-feedback-diagram.png)
-
 </details>
+
+![flavor feedback diagram](flavor-feedback-diagram.png)
